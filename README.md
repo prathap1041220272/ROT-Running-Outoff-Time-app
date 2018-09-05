@@ -1,5 +1,5 @@
-# Abide App 
-> The request which comes from the client-side(angular) will be stored in a MongoDB with at a certain limit of time, data in a DB will be erased (with mongoDB TTl).
+# ROT(running outoff time) App 
+> The request which comes from the client-side(angular) will be stored in a MongoDB with at a certain limit of time, data in a DB will be erased (with mongoDB TTL).
 ### Technologies used :-
  - Node JS  - server side
  - Mongo DB - Backend

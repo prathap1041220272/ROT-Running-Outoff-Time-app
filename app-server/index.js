@@ -6,14 +6,14 @@ const cors = require('cors');
 const app = express();
 //created the port number
 const port = process.env.PORT || 4568;
+//models imported here
+const db = require('./models');
+const { Data } = require('./models');
 // parsing the data with middleware bodyParser
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 //cors(cross origin resourse sharing)
 app.use(cors());
-//models imported here
-const db = require('./models');
-const { Data } = require('./models');
 //routes here
 app.post('/input',(req,res)=>{
     const { text } = req.body;
