@@ -19,11 +19,11 @@ app.post('/input',(req,res)=>{
     const { text } = req.body;
     const data = new Data({text});
     data.save()
-    .then(data=>{
-        res.send(data);
+    .then(data => {
+        res.status(200).json({'adUnit': 'AdUnit in added successfully'});
     })
-    .catch(error=>{
-        res.send(error.message);
+    .catch(error => {
+        res.status(400).send("unable to save to database");
     })
 })
 //server starting here 

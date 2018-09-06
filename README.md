@@ -10,6 +10,9 @@ When i get stuck
 - If not, I Google search for documentation, blog posts, or Stack Overflow posts that could help me get closer to the answer.
 - At this point, if I’m truly stuck, I will either post a question on Stack Overflow or ask a co-lead or developer I know.
 
+# architecture an app to deploy
+
+![alt text](https://github.com/prathap1041220272/abide-app/blob/master/images/architecture.png "Logo Title Text 1")
 ### Technologies used :-
  - Node JS  - server side
  - Mongo DB - Backend
@@ -77,4 +80,4 @@ Go to the browser and enter the url path or click here [https://localhost:4568](
 
 If it's success 
 
-![client side success](https://github.com/prathap1041220272/abide-app/blob/master/images/client_input.png "client side success")
+![client side success](https://github.com/prathap1041220272/abide-app/blob/master/images/client_input-success.png "client side success")
