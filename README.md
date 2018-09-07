@@ -14,6 +14,9 @@
 # architecture of an app to deploy
 
 ![alt text](https://github.com/prathap1041220272/ROT-Running-Outoff-Time-app/blob/master/images/architecture.png "Logo Title Text 1")
+
+Or else [Click here for original image from draw.io](https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.html#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1HlnU8SGxv9GGqVAwxWfnK-ut25dXMobP%26export%3Ddownload)
+
 ### Technologies used :-
  - Node JS  - server side
  - Mongo DB - Backend
