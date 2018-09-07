@@ -1,11 +1,10 @@
 # ROT(running outoff time) App 
 
-### Description
+### User Story
 > The request which comes from the client-side(angular) will be stored in a MongoDB. TTL indexes are special single-field indexes that MongoDB can use to automatically remove documents from a collection after a certain amount of time or at a specific clock time. Time to live (TTL) is a mechanism that limits the lifespan or lifetime of data in a database.
 > Once the prescribed event count or timespan has elapsed, data is discarded or revalidated. In Database, TTL prevents a data packet from circulating indefinitely. Basically, It is used to decide the lifespan of an TOTP(Time Based One Time Password) and Token generation. For security purpose need to decide the user is genuine are not.
 
-# solving the problem
-When i get stuck
+# When i get stuck
 
 - I first narrow down and figure out what I’m actually stuck on define the problem. Then I come up with a assumption for what I think could be the root cause or causes of the problem. Even if I have no idea, I just make a guess.
 - Now I try to debug with my hypothesis in mind. I get as far as I can on my assumption without looking for answers online, there’s something beautiful that happens when i try to solve problems by truly thinking deeply about them on my own first. Even if i going down the wrong path, the fact that i made the effort teaches me a lot and i will remember the problem space much better next time i run into it.
